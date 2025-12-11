@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Staging Template">
+    <meta name="keywords" content="Staging, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Staging | Template</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<style>
+  #popup {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    padding: 0;
+}
+
+/* FULLSCREEN POPUP BOX */
+.popup-inner {
+    background: #fff;
+    width: 100vw;     /* FULL WIDTH */
+    height: 100vh;    /* FULL HEIGHT */
+    overflow-y: auto; /* scroll allowed */
+    border-radius: 0;
+    padding: 20px;
+    position: relative;
+}
+
+/* Close Button */
+.popup-close {
+    position: fixed;
+    right: 18px;
+    top: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Sub Images FULL SIZE */
+.sub-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* MAKE IMAGES BIG */
+.sub-images img {
+    width: 90%;     /* MAKE IMAGES LARGE */
+    max-width: 650px;
+    height: auto;
+    border-radius: 10px;
+}
+
+    </style>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__widget">
+            <span>Call us for any questions</span>
+            <h4>+92 341 8942148</h4>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="./products.html">Products</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./Product-details.html">Product Details</a></li>
+                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="./services.html">Services</a></li>
+                                   
+                                </ul>
+                            </li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__widget">
+                        <span>Call us for any questions</span>
+                        <h4>+92 341 8942148</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+
+    <!-- Breadcrumb Section Begin -->
+    <div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Our Projects</h2>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html">Home</a>
+                            <span>Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
+
+   <section class="project-page spad">
+        <div class="container">
+            <div class="row">
+
+                <!-- Project Items -->
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="project__item" data-category="Office Building">
+                        <img src="img/project/p1.jpg" alt="">
+                        <h4><a href="#">Beds</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="project__item" data-category="Furniture Decorative">
+                        <img src="img/project/p2.jpg" alt="">
+                        <h4><a href="#">Sofas</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="project__item" data-category="Interior Design">
+                        <img src="img/project/p3.jpg" alt="">
+                        <h4><a href="#">Dining Tables</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="project__item" data-category="Home Building">
+                        <img src="img/project/p4.jpg" alt="">
+                        <h4><a href="#">Cupboards</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="project__item" data-category="Decoration">
+                        <img src="img/project/p5.jpg" alt="">
+                        <h4><a href="#">Consoles</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="project__item" data-category="Furniture">
+                        <img src="img/project/p6.jpg" alt="">
+                        <h4><a href="#">Center Tables</a></h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- POPUP -->
+        <div id="popup">
+            <div class="popup-inner">
+                <span class="popup-close">&times;</span>
+                <h3 id="popup-title"></h3>
+                <div class="sub-images" id="sub-images-box"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ======= Furniture Features Section ======= -->
+<section class="spad" id="furniture-features">
+    <div class="container">
+
+        <h1 class="text-center mb-5" style="font: weight 10px;">Our Furniture Features</h1>
+
+        <!-- Beds Table -->
+        <div class="feature-block mb-5">
+            <h2 class="table-heading">Beds</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Why Choose Us</th>
+                        <th>Quality Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Premium hardwood frames</td>
+                        <td>Designed for maximum durability & comfort</td>
+                        <td>Anti-squeak structure, long-lasting polish</td>
+                    </tr>
+                    <tr>
+                        <td>Storage & hydraulic options</td>
+                        <td>Convenient & space-saving</td>
+                        <td>Heavy-duty lift mechanism</td>
+                    </tr>
+                    <tr>
+                        <td>Custom sizes</td>
+                        <td>Perfectly tailored to your room</td>
+                        <td>Precision craftsmanship</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Sofas -->
+        <div class="feature-block mb-5">
+            <h2 class="table-heading">Sofas</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Why Choose Us</th>
+                        <th>Quality Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Premium foam cushioning</td>
+                        <td>Unmatched comfort & support</td>
+                        <td>Long-lasting shape retention</td>
+                    </tr>
+                    <tr>
+                        <td>Custom fabrics & colors</td>
+                        <td>Perfectly matches your interior</td>
+                        <td>Stain-resistant upholstery</td>
+                    </tr>
+                    <tr>
+                        <td>Modern & classic styles</td>
+                        <td>Options for every home</td>
+                        <td>Expert upholstery stitching</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Dining Tables -->
+        <div class="feature-block mb-5">
+            <h2 class="table-heading">Dining Tables</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Why Choose Us</th>
+                        <th>Quality Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Solid wood & metal combinations</td>
+                        <td>Strong & long-lasting</td>
+                        <td>Scratch-resistant finishing</td>
+                    </tr>
+                    <tr>
+                        <td>Seating for 4–10 people</td>
+                        <td>Perfect for any family size</td>
+                        <td>Stable, noise-free build</td>
+                    </tr>
+                    <tr>
+                        <td>Designer & luxury options</td>
+                        <td>Enhances dining experience</td>
+                        <td>Handcrafted detailing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Cupboards -->
+        <div class="feature-block mb-5">
+            <h2 class="table-heading">Cupboards</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Why Choose Us</th>
+                        <th>Quality Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Multi-compartment design</td>
+                        <td>Organized storage solutions</td>
+                        <td>Soft-close premium hinges</td>
+                    </tr>
+                    <tr>
+                        <td>Custom-built units</td>
+                        <td>Fits perfectly in your space</td>
+                        <td>Moisture & termite resistant</td>
+                    </tr>
+                    <tr>
+                        <td>Durable materials</td>
+                        <td>Made for everyday use</td>
+                        <td>High-quality finish</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Consoles -->
+        <div class="feature-block mb-5">
+            <h2 class="table-heading">Consoles</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Why Choose Us</th>
+                        <th>Quality Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Minimal & modern look</td>
+                        <td>Perfect for hallways & living rooms</td>
+                        <td>Premium carvings & polished finish</td>
+                    </tr>
+                    <tr>
+                        <td>Compact & space-efficient</td>
+                        <td>Fits anywhere beautifully</td>
+                        <td>Durable and steady build</td>
+                    </tr>
+                    <tr>
+                        <td>Decor-friendly designs</td>
+                        <td>Complements your interior</td>
+                        <td>Long-lasting shine</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Center Tables -->
+        <div class="feature-block mb-5">
+            <h2 class="table-heading">Center Tables</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Why Choose Us</th>
+                        <th>Quality Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Glass, wood & mixed materials</td>
+                        <td>Perfect for modern homes</td>
+                        <td>Scratch-resistant top</td>
+                    </tr>
+                    <tr>
+                        <td>Storage & open designs</td>
+                        <td>Functional and stylish</td>
+                        <td>Stable & sturdy</td>
+                    </tr>
+                    <tr>
+                        <td>Trendy & timeless looks</td>
+                        <td>Matches any interior theme</td>
+                        <td>Smooth polished finish</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>
+    <section class="project-page spad">
+    <div class="container">
+        <h2 class="text-center mb-5">Videos</h2>
+
+        <div class="row">
+            
+
+            <!-- Video Item 1 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video1.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 1</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 2 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video2.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 2</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 3 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video3.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 3</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 4 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video4.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 4</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 5 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video5.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 5</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 6 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video6.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 6</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 7 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video7.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 7</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 8 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video8.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 8</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 9 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video9.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 9</a></h4>
+                </div>
+            </div>
+
+            <!-- Video Item 10 -->
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video10.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 10</a></h4>
+                </div>
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video11.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 11</a></h4>
+                </div>
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video12.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 12</a></h4>
+                </div>
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video13.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 13</a></h4>
+                </div>
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video14.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 14</a></h4>
+                </div>
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video15.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 15</a></h4>
+                </div>
+            </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="project__item" data-category="Video">
+                    <video controls width="100%">
+                        <source src="videos/video16.mp4" type="video/mp4">
+                    </video>
+                    <h4><a href="#">Video 16</a></h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ======= Stylish Table CSS ======= -->
+<style>
+    .table-heading {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .styled-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        background: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .styled-table thead {
+        background: #111;
+        color: #fff;
+    }
+
+    .styled-table th,
+    .styled-table td {
+        padding: 15px 18px;
+        font-size: 15px;
+    }
+
+    .styled-table tbody tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    .styled-table tbody tr:hover {
+        background: #ececec;
+        transition: 0.3s ease;
+    }
+</style>
+
+
+
+<script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const subImageList = {
+                "Office Building": ["img/project/bd1.jpg", "img/project/bd2.jpg","img/project/bd3.jpg","img/project/bd4.jpg","img/project/bd5.jpg","img/project/bd6.jpg","img/project/bd7.jpg","img/project/bd8.jpg","img/project/bd9.jpg","img/project/bd10.jpg","img/project/bd11.jpg","img/project/bd12.jpg","img/project/bd13.jpg","img/project/bd14.jpg","img/project/bd15.jpg","img/project/bd16.jpg","img/project/bd17.jpg","img/project/bd18.jpg","img/project/bd19.jpg","img/project/bd20.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg","img/project/bd1.jpg"],
+                "Furniture Decorative": ["img/sub/sof1.jpg", "img/sub/sof2.jpg","img/sub/sof3.jpg","img/sub/sof4.jpg","img/sub/sof5.jpg","img/sub/sof6.jpg","img/sub/sof7.jpg","img/sub/sof8.jpg","img/sub/sof9.jpg","img/sub/sof10.jpg","img/sub/sof11.jpg","img/sub/sof12.jpg","img/sub/sof13.jpg","img/sub/sof14.jpg","img/sub/sof15.jpg","img/sub/sof16.jpg","img/sub/sof17.jpg","img/sub/sof18.jpg","img/sub/sof19.jpg","img/sub/sof20.jpg","img/sub/sof21.jpg","img/sub/sof22.jpg","img/sub/sof23.jpg","img/sub/sof24.jpg"],
+                "Interior Design": ["img/sub/dt1.jpg", "img/sub/dt2.jpg","img/sub/dt3.jpg","img/sub/dt4.jpg","img/sub/dt5.jpg","img/sub/dt6.jpg","img/sub/dt7.jpg","img/sub/dt8.jpg","img/sub/dt9.jpg","img/sub/dt10.jpg","img/sub/dt11.jpg","img/sub/dt12.jpg","img/sub/dt13.jpg","img/sub/dt14.jpg","img/sub/dt15.jpg","img/sub/dt16.jpg","img/sub/dt17.jpg","img/sub/dt18.jpg","img/sub/dt19.jpg","img/sub/dt20.jpg"],
+                "Home Building": ["img/sub/cp1.jpg", "img/sub/cp2.jpg","img/sub/cp3.jpg","img/sub/cp4.jpg","img/sub/cp5.jpg","img/sub/cp6.jpg","img/sub/cp7.jpg","img/sub/cp8.jpg","img/sub/cp9.jpg","img/sub/cp10.jpg","img/sub/cp11.jpg","img/sub/cp12.jpg","img/sub/cp13.jpg","img/sub/cp14.jpg","img/sub/cp15.jpg","img/sub/cp16.jpg"],
+                "Decoration": ["img/sub/co1.jpg","img/sub/co2.jpg","img/sub/co3.jpg","img/sub/co4.jpg","img/sub/co5.jpg","img/sub/co6.jpg","img/sub/co7.jpg","img/sub/co8.jpg","img/sub/co9.jpg","img/sub/co10.jpg"],
+                "Furniture": ["img/sub/ct1.jpg","img/sub/ct2.jpg","img/sub/ct3.jpg","img/sub/ct4.jpg","img/sub/ct5.jpg","img/sub/ct6.jpg","img/sub/ct7.jpg","img/sub/ct8.jpg","img/sub/ct9.jpg","img/sub/ct10.jpg"]
+            };
+
+            const popup = document.getElementById("popup");
+            const titleBox = document.getElementById("popup-title");
+            const imageBox = document.getElementById("sub-images-box");
+
+            document.querySelectorAll(".project__item").forEach(item => {
+
+                item.addEventListener("click", () => {
+                    const category = item.getAttribute("data-category");
+                    const imgs = subImageList[category] || [];
+
+                    titleBox.textContent = category;
+                    imageBox.innerHTML = imgs
+                        .map(src => `<img src="${src}" alt="${category}">`)
+                        .join("");
+
+                    popup.style.display = "flex";
+                });
+            });
+
+            document.querySelector(".popup-close").addEventListener("click", () => {
+                popup.style.display = "none";
+            });
+
+            popup.addEventListener("click", (e) => {
+                if (e.target === popup) popup.style.display = "none";
+            });
+        });
+    </script>
+<!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="footer__top__text">
+                            <h2>Ready To Work With Us?</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__top__newslatter">
+                            <form action="#">
+                                <input type="text" placeholder="Enter your email...">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <p> Main F/2 Road , Mirpur Azad Kashmir <br />Pakistan</p>
+                        <ul>
+                            <li>hr.abbasraza@gmail.com</li>
+                            <li>+92 341 8942148</li>
+                        </ul>
+                        <div class="footer__social">
+                            <a href="https://wa.me/923418942148" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" style="width: 60px; height: 60px;">
+</a>
+                            <a href="https://www.facebook.com/share/1FipiYLaNQ/"><i class="fa fa-facebook"></i></a>
+                          
+                           <a href="https://www.instagram.com/metro_furniture_mirpur/" target="_blank">
+    <i class="fa fa-instagram"></i>
+</a><a href="https://www.tiktok.com/@metro_furniture_mirpur?_r=1&_t=ZS-928BcgYxznk" target="_blank" class="social-link">
+            <i class="fab fa-tiktok"></i> 
+        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Our Works</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Services</h6>
+                        <ul>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Interior Design</a></li>
+                            <li><a href="#">Exterior Design</a></li>
+                            <li><a href="#">Planning</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__address">
+                        <h6>Get In Touch</h6>
+                         <p>CEO : Abbas Raza</p>
+                        <p>Location: Main F/2 Road , Mirpur Azad Kashmir <br />Pakistan</p>
+                        <ul>
+                            <li>hr.abbasraza@gmail.com</li>
+                            <li>+92 341 8942148</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7">
+                        <div class="copyright__text">
+                            <p>Copyright © <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> by <a href="https://colorlib.com"
+                            target="_blank">Metro Furniture</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="copyright__widget">
+                        <a href="#">Terms of use</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
